@@ -3,7 +3,7 @@ from typing import List
 from app.model.model import ChatMessage
 from app.prompt.prompt import build_prompt
 
-OLLAMA_URL = "http://localhost:11434/api/chat"
+OLLAMA_URL = "http://localhost:11434/api/generate"
 
 def get_llm_response(messages: List[ChatMessage]) -> str:
     
